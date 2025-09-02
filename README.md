@@ -12,4 +12,8 @@ Enter exit if you want to exit the conversation.
 ```
 
 ## Sample questions and answers
-![Sample questions and answers](sample.png)
+![Sample questions and answers](sample.png)  
+1. What will an organization of the Government of British Columbia do if an employee got health problems?  
+2. Which HR policy document talks abpout occupational safety and health?
+
+
