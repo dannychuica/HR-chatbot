@@ -40,9 +40,6 @@ def retrieval_generation(query):
     init()
     
     # Semantic Hybrid Search
-    # query = "Which is more comprehensive, Northwind Health Plus vs Northwind Standard?"
-    vector_query = VectorizableTextQuery(text=query, k_nearest_neighbors=1, fields="vector", exhaustive=True)
-    
     search_client = SearchClient(endpoint, index_name, credential)
     vector_query = VectorizableTextQuery(text=query, k_nearest_neighbors=1, fields="vector", exhaustive=True)
     
